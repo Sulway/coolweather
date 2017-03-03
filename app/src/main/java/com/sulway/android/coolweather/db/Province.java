@@ -1,12 +1,13 @@
 package com.sulway.android.coolweather.db;
 
 
+import org.litepal.crud.DataSupport;
 
 /**
  * Created by Sulway on 2017-03-03.
  */
 
-public class Province{
+public class Province extends DataSupport {
     private int id;
     private String provinceName;
     private int provinceCode;

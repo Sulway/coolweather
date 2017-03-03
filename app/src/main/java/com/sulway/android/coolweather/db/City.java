@@ -1,12 +1,13 @@
 package com.sulway.android.coolweather.db;
 
 
+import org.litepal.crud.DataSupport;
 
 /**
  * Created by Sulway on 2017-03-03.
  */
 
-public class City{
+public class City extends DataSupport {
     private int id;
     private String cityName;
     private int cityCode;
